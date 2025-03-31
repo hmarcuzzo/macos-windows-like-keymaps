@@ -31,6 +31,24 @@
         }
       ],
       "type": "basic"
+    },
+    {
+      "conditions": [
+        {
+          "bundle_identifiers": [
+            "^com\\.apple\\.finder$"
+          ],
+          "type": "frontmost_application_if"
+        }
+      ],
+      "from": { "key_code": "delete_forward" },
+      "to_if_alone": [
+        {
+          "key_code": "delete_or_backspace",
+          "modifiers": ["control"]
+        }
+      ],
+      "type": "basic"
     }
   ]
 }
