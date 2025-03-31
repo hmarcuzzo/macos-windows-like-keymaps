@@ -1,0 +1,36 @@
+{
+  "description": "MacOS facility keys",
+  "manipulators": [
+    {
+      "from": { "key_code": "f1" },
+      "to_if_alone": [
+        {
+          "key_code": "slash",
+          "modifiers": ["left_command", "left_shift"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": [
+        {
+          "bundle_identifiers": [
+            "^com\\.jetbrains\\.pycharm$",
+            "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.apple\\.finder$"
+          ],
+          "type": "frontmost_application_unless"
+        }
+      ],
+      "from": { "key_code": "f2" },
+      "to_if_alone": [
+        {
+          "key_code": "f2",
+          "modifiers": ["left_option"]
+        }
+      ],
+      "type": "basic"
+    }
+  ]
+}
