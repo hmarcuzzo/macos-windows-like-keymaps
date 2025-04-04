@@ -7,7 +7,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -30,7 +31,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -53,7 +55,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -76,7 +79,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -96,7 +100,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -119,7 +124,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -142,7 +148,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -165,7 +172,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -188,7 +196,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -208,7 +217,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -231,7 +241,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -254,7 +265,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -277,7 +289,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -300,7 +313,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -323,7 +337,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -346,7 +361,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -369,7 +385,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -392,7 +409,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -415,7 +433,8 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
-            "^com\\.microsoft\\.VSCode$"
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.googlecode\\.iterm2$"
           ],
           "type": "frontmost_application_unless"
         }
@@ -432,6 +451,7 @@
       ],
       "type": "basic"
     },
+
     {
       "from": { "key_code": "left_option" },
       "to": [{ "key_code": "left_option" }],
@@ -439,6 +459,74 @@
         {
           "key_code": "spacebar",
           "modifiers": ["option"]
+        }
+      ],
+      "type": "basic"
+    },
+
+    {
+      "conditions": [
+        {
+          "type": "variable_if",
+          "name": "command_tab_mode",
+          "value": 0
+        }
+      ],
+      "from": {
+        "key_code": "tab",
+        "modifiers": {
+          "mandatory": ["control"],
+          "optional": []
+        }
+      },
+      "to_if_alone": [
+        {
+          "key_code": "close_bracket",
+          "modifiers": ["control"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": [
+        {
+          "type": "variable_if",
+          "name": "command_tab_mode",
+          "value": 0
+        }
+      ],
+      "from": {
+        "key_code": "tab",
+        "modifiers": {
+          "mandatory": ["control", "shift"],
+          "optional": []
+        }
+      },
+      "to": [
+        {
+          "key_code": "open_bracket",
+          "modifiers": ["control"]
+        }
+      ],
+      "type": "basic"
+    },
+
+    {
+      "conditions": [
+        {
+          "type": "variable_if",
+          "name": "command_tab_mode",
+          "value": 1
+        }
+      ],
+      "from": {
+        "key_code": "f4",
+        "modifiers": { "mandatory": ["control"] }
+      },
+      "to": [
+        {
+          "key_code": "q",
+          "modifiers": ["control"]
         }
       ],
       "type": "basic"

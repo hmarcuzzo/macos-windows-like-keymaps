@@ -20,58 +20,6 @@
         }
       ],
       "type": "basic"
-    },
-    {
-      "conditions": [
-        {
-          "bundle_identifiers": [
-            "^com\\.google\\.Chrome$",
-            "^com\\.brave\\.Browser$",
-            "^company\\.thebrowser\\.Browser$"
-          ],
-          "type": "frontmost_application_if"
-        }
-      ],
-      "from": {
-        "key_code": "tab",
-        "modifiers": {
-          "mandatory": ["control"],
-          "optional": []
-        }
-      },
-      "to_if_alone": [
-        {
-          "key_code": "close_bracket",
-          "modifiers": ["control"]
-        }
-      ],
-      "type": "basic"
-    },
-    {
-      "conditions": [
-        {
-          "bundle_identifiers": [
-            "^com\\.google\\.Chrome$",
-            "^com\\.brave\\.Browser$",
-            "^company\\.thebrowser\\.Browser$"
-          ],
-          "type": "frontmost_application_if"
-        }
-      ],
-      "from": {
-        "key_code": "tab",
-        "modifiers": {
-          "mandatory": ["control", "shift"],
-          "optional": []
-        }
-      },
-      "to": [
-        {
-          "key_code": "open_bracket",
-          "modifiers": ["control"]
-        }
-      ],
-      "type": "basic"
     }
   ]
 }
