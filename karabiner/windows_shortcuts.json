@@ -530,6 +530,66 @@
         }
       ],
       "type": "basic"
+    },
+
+    {
+      "conditions": [
+        {
+          "bundle_identifiers": [
+            "^com\\.apple\\.finder$"
+          ],
+          "type": "frontmost_application_if"
+        }
+      ],
+      "from": {
+        "key_code": "x",
+        "modifiers": { "mandatory": ["control"] }
+      },
+      "to": [
+        {
+          "set_variable": {
+            "name": "cut_pressed",
+            "value": 1
+          }
+        },
+        {
+          "key_code": "c",
+          "modifiers": ["control"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": [
+        {
+          "bundle_identifiers": [
+            "^com\\.apple\\.finder$"
+          ],
+          "type": "frontmost_application_if"
+        },
+        {
+          "name": "cut_pressed",
+          "type": "variable_if",
+          "value": 1
+        }
+      ],
+      "from": {
+        "key_code": "v",
+        "modifiers": { "mandatory": ["control"] }
+      },
+      "to": [
+        {
+          "set_variable": {
+            "name": "cut_pressed",
+            "value": 0
+          }
+        },
+        {
+          "key_code": "v",
+          "modifiers": ["control", "option"]
+        }
+      ],
+      "type": "basic"
     }
   ]
 }
