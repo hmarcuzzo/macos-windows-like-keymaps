@@ -4,11 +4,11 @@ This project provides a collection of Karabiner-Elements configurations to make 
 
 ## Required System Shortcut Adjustments
 
-Before using these keymaps, you need to adjust some system shortcuts in macOS System Settings. Here are the necessary changes:
+Before using these keymaps, you need to adjust some system shortcuts in macOS System Settings. Here are the necessary changes to ensure compatibility with our Karabiner configurations:
 
 ### 1. Mission Control Shortcuts
 ![Mission Control Settings](docs/img/keyboard_shortcuts/mission_control.png)
-- Disable or change the default Mission Control shortcuts to avoid conflicts
+- Disable or change the default Mission Control shortcuts to avoid conflicts to match with the Karabiner shortcuts
 
 ### 2. Spotlight Search
 ![Spotlight Settings](docs/img/keyboard_shortcuts/spotlight.png)
@@ -16,21 +16,23 @@ Before using these keymaps, you need to adjust some system shortcuts in macOS Sy
 
 ### 3. Input Sources
 ![Input Sources Settings](docs/img/keyboard_shortcuts/input_sources.png)
-- Adjust the keyboard input source switching shortcut
+- Adjust the keyboard input source switching shortcut to match with the Karabiner shortcuts
 
 ### 4. Launchpad and Dock
 ![Launchpad and Dock Settings](docs/img/keyboard_shortcuts/lauchpad_and_dock.png)
-- Change the default Launchpad shortcut
+- Change the default Launchpad shortcut to match with the Karabiner shortcuts
 
 ### 5. Keyboard Modifier Keys
 ![Keyboard Modifier Keys](docs/img/keyboard_shortcuts/keyboard_modifier_keys.png)
-- Ensure your modifier keys are set correctly
-- Recommended: Swap the `Control` key with the `Command` key
+- Swap the following modifier keys to match Windows layout:
+  - Set the `Control` key to function as `Command`
+  - Set the `Command` key to function as `Control`
+  This ensures that `Control + C`, `Control + V`, etc. work as expected in Windows style.
 
 ### 6. App Shortcuts
 ![App Shortcuts 1](docs/img/keyboard_shortcuts/app_shortcuts_01.png)
 ![App Shortcuts 2](docs/img/keyboard_shortcuts/app_shortcuts_02.png)
-- Review and adjust any application-specific shortcuts
+- Review and adjust any application-specific shortcuts to match with the Karabiner shortcuts
 
 ### 7. Siri Shortcuts
 ![Siri Shortcuts](docs/img/keyboard_shortcuts/siri_shortcut.png)
@@ -68,31 +70,26 @@ Before using these keymaps, you need to adjust some system shortcuts in macOS Sy
 
 This configuration provides the following Windows-like shortcuts:
 
-- `Alt + Tab`: Switch between applications (Windows-style)
-- `Ctrl + C`: Copy
-- `Ctrl + V`: Paste
-- `Ctrl + X`: Cut
-- `Ctrl + Z`: Undo
-- `Ctrl + Y`: Redo
-- `Ctrl + A`: Select all
-- `Ctrl + F`: Find
-- `Ctrl + S`: Save
-- `Ctrl + W`: Close window/tab
-- `Ctrl + T`: New tab
-- `Ctrl + N`: New window
-- `Ctrl + Shift + N`: New private window
-- `Ctrl + R`: Refresh
-- `Ctrl + L`: Focus address bar
-- `Ctrl + D`: Bookmark page
-- `Ctrl + H`: Show history
-- `Ctrl + J`: Show downloads
-- `Ctrl + K`: Focus search bar
-- `Ctrl + P`: Print
-- `Ctrl + Shift + P`: Print to PDF
-- `Ctrl + Shift + W`: Close all windows
-- `Ctrl + Shift + T`: Reopen closed tab
-- `Ctrl + Tab`: Next tab
+- `Home`: Move cursor to beginning of line
+- `Shift + Home`: Select to beginning of line
+- `Cmd + Home`: Move cursor to top of document
+- `Cmd + Shift + Home`: Select to top of document
+- `End`: Move cursor to end of line
+- `Shift + End`: Select to end of line
+- `Cmd + End`: Move cursor to bottom of document
+- `Cmd + Shift + End`: Select to bottom of document
+- `Ctrl + Left Arrow`: Move cursor one word left
+- `Ctrl + Shift + Left Arrow`: Select one word left
+- `Ctrl + Right Arrow`: Move cursor one word right
+- `Ctrl + Shift + Right Arrow`: Select one word right
+- `Ctrl + Backspace`: Delete previous word
+- `Ctrl + Delete`: Delete next word
+- `Ctrl + Tab`: Next tab (Windows-style)
 - `Ctrl + Shift + Tab`: Previous tab
+- `Ctrl + F4` (when command_tab_mode is activated): Quit current app (maps to Ctrl + Q)
+- `Tap + Left Option` alone: Insert Option + Space (non-breaking space)
+- `Ctrl + X`: Cut file (Finder only)
+- `Ctrl + V`: Paste / move file after cut (Finder only)
 
 ### Control Tab to Command Tab (`control_tab__to__command_tab.json`)
 
