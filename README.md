@@ -2,6 +2,44 @@
 
 This project provides a collection of Karabiner-Elements configurations to make your MacOS keyboard behave more like Windows, making the transition between operating systems smoother.
 
+## Required System Shortcut Adjustments
+
+Before using these keymaps, you need to adjust some system shortcuts in macOS System Settings. Here are the necessary changes:
+
+### 1. Mission Control Shortcuts
+![Mission Control Settings](docs/img/keyboard_shortcuts/mission_control.png)
+- Disable or change the default Mission Control shortcuts to avoid conflicts
+
+### 2. Spotlight Search
+![Spotlight Settings](docs/img/keyboard_shortcuts/spotlight.png)
+- Update the default Spotlight shortcut from `Command + Space` to `Option + Space` and `Option + Command + Space`.
+
+### 3. Input Sources
+![Input Sources Settings](docs/img/keyboard_shortcuts/input_sources.png)
+- Adjust the keyboard input source switching shortcut
+
+### 4. Launchpad and Dock
+![Launchpad and Dock Settings](docs/img/keyboard_shortcuts/lauchpad_and_dock.png)
+- Change the default Launchpad shortcut
+
+### 5. Keyboard Modifier Keys
+![Keyboard Modifier Keys](docs/img/keyboard_shortcuts/keyboard_modifier_keys.png)
+- Ensure your modifier keys are set correctly
+- Recommended: Swap the `Control` key with the `Command` key
+
+### 6. App Shortcuts
+![App Shortcuts 1](docs/img/keyboard_shortcuts/app_shortcuts_01.png)
+![App Shortcuts 2](docs/img/keyboard_shortcuts/app_shortcuts_02.png)
+- Review and adjust any application-specific shortcuts
+
+### 7. Siri Shortcuts
+![Siri Shortcuts](docs/img/keyboard_shortcuts/siri_shortcut.png)
+- Change the default Siri shortcut
+
+### 8. Keyboard Shortcuts
+![Keyboard Shortcuts](docs/img/keyboard_shortcuts/keyboard.png)
+- Review and adjust any keyboard shortcuts to match with the Karabiner shortcuts
+
 ## Prerequisites
 
 - MacOS (tested on MacOS Ventura and later)
