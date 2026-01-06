@@ -7,6 +7,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -31,6 +32,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -55,6 +57,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -79,6 +82,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -100,6 +104,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -124,6 +129,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -148,6 +154,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -172,6 +179,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -196,6 +204,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -217,6 +226,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -246,6 +256,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -270,6 +281,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -294,6 +306,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -323,6 +336,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -347,6 +361,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -371,6 +386,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],
@@ -395,6 +411,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.googlecode\\.iterm2$"
           ],

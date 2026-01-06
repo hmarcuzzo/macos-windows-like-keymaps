@@ -17,6 +17,7 @@
           "bundle_identifiers": [
             "^com\\.jetbrains\\.pycharm$",
             "^com\\.jetbrains\\.WebStorm$",
+            "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
             "^com\\.apple\\.finder$"
           ],
