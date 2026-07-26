@@ -19,6 +19,7 @@
             "^com\\.jetbrains\\.WebStorm$",
             "^com\\.jetbrains\\.intellij$",
             "^com\\.microsoft\\.VSCode$",
+            "^com\\.usebruno\\.app$",
             "^com\\.apple\\.finder$"
           ],
           "type": "frontmost_application_unless"
