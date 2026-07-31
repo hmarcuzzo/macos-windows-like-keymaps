@@ -1152,8 +1152,8 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="33e5d" />
-        <option name="ERROR_STRIPE_COLOR" value="4d6168" />
+        <option name="BACKGROUND" value="313337" />
+        <option name="ERROR_STRIPE_COLOR" value="77a4e8" />
       </value>
     </option>
     <option name="IGNORE.BRACKET">
@@ -3862,6 +3862,7 @@
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="313337" />
+        <option name="ERROR_STRIPE_COLOR" value="a9dc76" />
       </value>
     </option>
     <option name="SLIM_CLASS">
@@ -4055,8 +4056,8 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="403e41" />
-        <option name="BACKGROUND" value="f8e71c" />
+        <option name="BACKGROUND" value="313337" />
+        <option name="ERROR_STRIPE_COLOR" value="a9dc76" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
@@ -4182,7 +4183,7 @@
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="313337" />
+        <option name="BACKGROUND" value="403e41" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
