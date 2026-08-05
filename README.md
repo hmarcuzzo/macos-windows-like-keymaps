@@ -64,6 +64,20 @@ Before using these keymaps, you need to adjust some system shortcuts in macOS Sy
 7. Click "Add rule"
 8. Enable the rules you want to use
 
+## Karabiner Simple Modifications
+
+In addition to the complex modifications, you need to set up the following key swaps in the
+Karabiner-Elements "Simple Modifications" tab:
+
+![Karabiner Simple Modifications](docs/img/keyboard_shortcuts/karabine_simple_modifications.png)
+
+- `left_command` → `left_option`
+- `left_option` → `left_command`
+- `right_option` → `right_command`
+
+These swaps, together with the [Keyboard Modifier Keys](#5-keyboard-modifier-keys) adjustments,
+place `Ctrl`, `Alt` and `Win` in the same physical positions as on a Windows keyboard.
+
 ## Available Keymaps
 
 ### Windows-like Shortcuts (`windows_shortcuts.json`)
