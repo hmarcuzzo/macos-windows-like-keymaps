@@ -54,14 +54,14 @@
         "configuration" : {
           "knobs" : {
             "base: priority" : 5,
-            "base: compression resistance" : 1,
             "shared text color" : {
               "Red Component" : 0.86000317335128784,
               "Color Space" : "P3",
               "Blue Component" : 0.63590961694717407,
               "Alpha Component" : 1,
               "Green Component" : 0.6414334774017334
-            }
+            },
+            "base: compression resistance" : 1
           },
           "layout advanced configuration dictionary value" : {
             "remove empty components" : false,
@@ -326,7 +326,7 @@
     "telnet"
   ],
   "Use Non-ASCII Font" : false,
-  "Custom Directory" : "No",
+  "Custom Directory" : "Recycle",
   "Use Selected Text Color (Light)" : true,
   "Bold Color (Light)" : {
     "Red Component" : 0.062745098039215685,
