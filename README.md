@@ -9,6 +9,7 @@ Before using these keymaps, you need to adjust some system shortcuts in macOS Sy
 ### 1. Mission Control Shortcuts
 ![Mission Control Settings](docs/img/keyboard_shortcuts/mission_control.png)
 - Disable or change the default Mission Control shortcuts to avoid conflicts to match with the Karabiner shortcuts
+- Uncheck `Move left a space` and `Move right a space` — or rebind them to `Option + ←` / `Option + →`, keeping them consistent with the Mission Control rebind above.
 
 ### 2. Spotlight Search
 ![Spotlight Settings](docs/img/keyboard_shortcuts/spotlight.png)
