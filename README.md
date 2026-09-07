@@ -106,7 +106,6 @@ This configuration provides the following Windows-like shortcuts:
 - `Ctrl + X`: Cut file (Finder only)
 - `Ctrl + V`: Paste / move file after cut (Finder only)
 - `Enter`: Open selected file/folder (maps to `Ctrl + O`, Finder only)
-- `Backspace`: Go back to previous folder (maps to `Ctrl + [`, Finder only)
 
 ### Control Tab to Command Tab (`control_tab__to__command_tab.json`)
 
