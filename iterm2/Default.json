@@ -1,11 +1,5 @@
 {
-  "Ansi 12 Color (Light)" : {
-    "Red Component" : 0.65349078178405762,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.9485321044921875,
-    "Alpha Component" : 1,
-    "Green Component" : 0.67044717073440552
-  },
+  "Close Sessions On End" : true,
   "Ansi 15 Color (Dark)" : {
     "Red Component" : 0.96862745100000003,
     "Color Space" : "sRGB",
@@ -13,12 +7,12 @@
     "Alpha Component" : 1,
     "Green Component" : 0.94509803920000002
   },
-  "Foreground Color (Dark)" : {
-    "Red Component" : 0.96862745100000003,
+  "Ansi 12 Color (Light)" : {
+    "Red Component" : 0.65349078178405762,
     "Color Space" : "sRGB",
-    "Blue Component" : 1,
+    "Blue Component" : 0.9485321044921875,
     "Alpha Component" : 1,
-    "Green Component" : 0.94509803920000002
+    "Green Component" : 0.67044717073440552
   },
   "Cursor Text Color" : {
     "Red Component" : 1,
@@ -124,7 +118,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.31372549020000001
   },
-  "Only The Default BG Color Uses Transparency" : false,
+  "Only The Default BG Color Uses Transparency" : true,
   "Scrollback Lines" : 1000,
   "Badge Color (Dark)" : {
     "Red Component" : 0.92929404973983765,
@@ -140,7 +134,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.1333333333
   },
-  "Transparency" : 0.24722413003663005,
+  "Transparency" : 0.14999999999999999,
   "Use Bright Bold" : true,
   "Horizontal Spacing" : 1,
   "Ansi 13 Color (Light)" : {
@@ -359,7 +353,7 @@
     "Green Component" : 0.99263292551040649
   },
   "Faint Text Alpha (Dark)" : 0.5,
-  "Blur Radius" : 24.691552197802199,
+  "Blur Radius" : 24.935559752747253,
   "Rows" : 26,
   "Background Color (Light)" : {
     "Red Component" : 0.97999999999999998,
@@ -423,6 +417,33 @@
   },
   "Normal Font" : "MesloLGS-NF-Regular 13",
   "Use Selected Text Color (Dark)" : true,
+  "Triggers" : [
+    {
+      "action" : "iTermEnterWorkgroupTrigger",
+      "matchType" : 113,
+      "parameter" : "builtin.claudeCode",
+      "partial" : false,
+      "eventParams" : {
+        "jobName" : "claude"
+      },
+      "contentregex" : "",
+      "regex" : "",
+      "disabled" : false
+    },
+    {
+      "action" : "iTermExitWorkgroupTrigger",
+      "matchType" : 114,
+      "parameter" : "",
+      "partial" : false,
+      "eventParams" : {
+        "jobName" : "claude",
+        "leaderOnly" : true
+      },
+      "contentregex" : "",
+      "regex" : "",
+      "disabled" : false
+    }
+  ],
   "Foreground Color" : {
     "Red Component" : 0.062745101749897003,
     "Color Space" : "sRGB",
@@ -710,6 +731,12 @@
     "Alpha Component" : 1,
     "Green Component" : 0.098039217293262482
   },
-  "Close Sessions On End" : true,
-  "Non-ASCII Anti Aliased" : true
+  "Non-ASCII Anti Aliased" : true,
+  "Foreground Color (Dark)" : {
+    "Red Component" : 0.96862745100000003,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 0.94509803920000002
+  }
 }
