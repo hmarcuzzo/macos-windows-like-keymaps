@@ -138,14 +138,20 @@ For JetBrains IDE users (IntelliJ, WebStorm, PyCharm, etc.), we provide a Window
 
 ## VS Code Icon Tweaks
 
-`vscode/patch_atom_material_icons.sh` reapplies two local changes to the
+`vscode/patch_atom_material_icons.sh` reapplies three local changes to the
 [Atom Material Icons](https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode)
 extension:
 
 - Open folders show the closed-folder icon instead of the theme's empty outline (the original
   icons are kept in `foldersOpen.bak/`).
-- `.py` files use the Python icon from the Material Icon Theme extension, which must also be
-  installed.
+- `.py` files use the Python icon of the
+  [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme), downloaded from its
+  repository, so that extension does not have to be installed.
+- File names the VS Code port does not know — `mise.toml`, `ruff.toml` and some 3.4k others —
+  get the icon the IntelliJ plugin of the same theme gives them, read from the plugin downloaded
+  from the JetBrains Marketplace, so IntelliJ does not have to be installed. An icon the plugin
+  draws in near-black, which IntelliJ tints for its dark theme, is copied over in white.
+  `.gitmojirc.json`, which neither of them knows, gets the Git icon.
 
 Run it after every update of the extension, which wipes the changes:
 
