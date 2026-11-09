@@ -144,9 +144,6 @@ extension:
   from the JetBrains Marketplace, so IntelliJ does not have to be installed. An icon the plugin
   draws in near-black, which IntelliJ tints for its dark theme, is copied over in white.
   `.gitmojirc.json`, which neither of them knows, gets the Git icon.
-- `.tftpl` files, which neither of them knows either, get the purple Terraform logo of the
-  [HashiCorp Terraform](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)
-  extension, as IntelliJ shows them through its Terraform plugin.
 
 Run it after every update of the extension, which wipes the changes:
 
