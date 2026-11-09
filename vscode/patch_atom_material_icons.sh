@@ -23,6 +23,19 @@ curl -fsSL -o "$atom/dist/files/hcl-material.svg" "$material/hcl.svg"
   -e 's|"./../dist/files/hcl.svg"|"./../dist/files/hcl-material.svg"|' \
   "$theme"
 
+# Terraform templates: neither the port nor the IntelliJ plugin has a rule for them, so IntelliJ
+# falls back to the Terraform plugin's purple logo. Use the HashiCorp extension's same logo.
+hashicorp=$(ls -d "$HOME"/.vscode/extensions/hashicorp.terraform-* | sort -V | tail -1)
+cp "$hashicorp/assets/icons/terraform.svg" "$atom/dist/files/terraform-template.svg"
+python3 - "$theme" <<'EOF'
+import json, sys
+
+theme = json.load(open(sys.argv[1]))
+theme["iconDefinitions"]["terraform-template"] = {"iconPath": "./../dist/files/terraform-template.svg"}
+theme["fileExtensions"]["tftpl"] = "terraform-template"
+json.dump(theme, open(sys.argv[1], "w"), indent=2)
+EOF
+
 # The unsaved-file dot: dropping the entry falls back to VS Code's own codicon,
 # which is round. The extension rewrites this file whenever its own icon
 # settings change, not only on update, so rerun after touching those too.
@@ -33,6 +46,8 @@ grep -q '<svg' "$atom/dist/files/python-material.svg" || { echo "python icon not
 grep -q '#eceff1' "$atom/dist/files/hcl-material.svg" || { echo "hcl icon not downloaded"; exit 1; }
 grep -q '"mise.toml": "mise"' "$theme" || { echo "file names not synced"; exit 1; }
 grep -q '".gitmojirc.json": "git"' "$theme" || { echo "gitmoji name not mapped"; exit 1; }
+grep -q '"tftpl": "terraform-template"' "$theme" || { echo "tftpl extension not mapped"; exit 1; }
+grep -q '#7B42BC' "$atom/dist/files/terraform-template.svg" || { echo "terraform template icon not copied"; exit 1; }
 test -f "$atom/dist/files/mise.svg"
 grep -q 'fill="#222"' "$atom/dist/files/mise.svg" || { echo "backdrop rect whitened"; exit 1; }
 diff -q "$atom/dist/folders/git.svg" "$atom/dist/foldersOpen/git.svg" >/dev/null
