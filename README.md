@@ -106,14 +106,6 @@ This configuration provides the following Windows-like shortcuts:
 - `Ctrl + X`: Cut file (Finder only)
 - `Ctrl + V`: Paste / move file after cut (Finder only)
 
-### Control Tab to Command Tab (`control_tab__to__command_tab.json`)
-
-This configuration maps:
-- `Ctrl + Tab` to `Command + Tab` for application switching
-- `Ctrl + Shift + Tab` to `Command + Shift + Tab` for reverse application switching
-- `Left` and `right arrow` keys also work for navigation when in transition mode
-
-
 ### Chrome-based Keys (`chrome_based_keys.json`)
 
 Additional Chrome-specific shortcuts:
