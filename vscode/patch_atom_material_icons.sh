@@ -15,20 +15,12 @@ test -d "$atom/foldersOpen.bak" || cp -R "$atom/dist/foldersOpen" "$atom/folders
 cp "$atom"/dist/folders/*.svg "$atom/dist/foldersOpen/"
 
 # Material's icons, under new filenames so VS Code's SVG cache does not serve the old ones.
-# Terraform is the port's green one replaced by Material's indigo; the open folder keeps
-# following the closed one, so Material's open variant is not needed.
 material=https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons
 curl -fsSL -o "$atom/dist/files/python-material.svg" "$material/python.svg"
-curl -fsSL -o "$atom/dist/files/terraform-material.svg" "$material/terraform.svg"
 curl -fsSL -o "$atom/dist/files/hcl-material.svg" "$material/hcl.svg"
-curl -fsSL -o "$atom/dist/folders/terraform-material.svg" "$material/folder-terraform.svg"
-cp "$atom/dist/folders/terraform-material.svg" "$atom/dist/foldersOpen/terraform-material.svg"
 /usr/bin/sed -i '' \
   -e 's|"./../dist/files/python.svg"|"./../dist/files/python-material.svg"|' \
-  -e 's|"./../dist/files/terraform.svg"|"./../dist/files/terraform-material.svg"|' \
   -e 's|"./../dist/files/hcl.svg"|"./../dist/files/hcl-material.svg"|' \
-  -e 's|"./../dist/folders/terraform.svg"|"./../dist/folders/terraform-material.svg"|' \
-  -e 's|"./../dist/foldersOpen/terraform.svg"|"./../dist/foldersOpen/terraform-material.svg"|' \
   "$theme"
 
 # The unsaved-file dot: dropping the entry falls back to VS Code's own codicon,
@@ -38,8 +30,6 @@ cp "$atom/dist/folders/terraform-material.svg" "$atom/dist/foldersOpen/terraform
 
 grep -q 'dist/files/python-material.svg' "$theme" || { echo "theme json not patched"; exit 1; }
 grep -q '<svg' "$atom/dist/files/python-material.svg" || { echo "python icon not downloaded"; exit 1; }
-grep -q 'dist/foldersOpen/terraform-material.svg' "$theme" || { echo "terraform icons not repointed"; exit 1; }
-grep -q '#5c6bc0' "$atom/dist/folders/terraform-material.svg" || { echo "terraform folder not downloaded"; exit 1; }
 grep -q '#eceff1' "$atom/dist/files/hcl-material.svg" || { echo "hcl icon not downloaded"; exit 1; }
 grep -q '"mise.toml": "mise"' "$theme" || { echo "file names not synced"; exit 1; }
 grep -q '".gitmojirc.json": "git"' "$theme" || { echo "gitmoji name not mapped"; exit 1; }
