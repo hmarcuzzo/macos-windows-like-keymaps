@@ -136,6 +136,25 @@ For JetBrains IDE users (IntelliJ, WebStorm, PyCharm, etc.), we provide a Window
 4. Click the gear icon and select "Import Keymap"
 5. Select the downloaded zip file
 
+## VS Code Icon Tweaks
+
+`vscode/patch_atom_material_icons.sh` reapplies two local changes to the
+[Atom Material Icons](https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode)
+extension:
+
+- Open folders show the closed-folder icon instead of the theme's empty outline (the original
+  icons are kept in `foldersOpen.bak/`).
+- `.py` files use the Python icon from the Material Icon Theme extension, which must also be
+  installed.
+
+Run it after every update of the extension, which wipes the changes:
+
+```bash
+./vscode/patch_atom_material_icons.sh
+```
+
+Then quit VS Code completely (`Cmd + Q`) and reopen it — a window reload keeps serving the cached icons.
+
 ## Troubleshooting
 
 If some shortcuts don't work as expected:
